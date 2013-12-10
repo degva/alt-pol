@@ -1,4 +1,5 @@
-$(document).ready(function() {
+/*
+$(ocument).ready(function() {
   // Algunos colores suaves característicos de altopolimero
   var $naranja = '#ffe6d5';
   var $azul = '#d5f6ff';
@@ -23,3 +24,4 @@ $(document).ready(function() {
   setInterval(change, 5000);
 
 });
+*/
