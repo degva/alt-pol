@@ -30,10 +30,49 @@
 
 			<?php include "includes/header.php"; ?>
 
+
+
       <!-- Begin page content -->
-      <div class="container">
-        <div class="page-header">
-          <h1>BIENVENIDO</h1>
+			<div class="container" style="padding-top: 100px">
+				<div class="row" style="width: 900px; margin: auto">
+				<!-- A carousel here! -->
+				<div id="carousel-example-generic" class="carousel slide span10" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+				    <div class="item active">
+				      <img src="http://placehold.it/900x500" alt="CAP1">
+				      <div class="carousel-caption">
+ 	    			  	<h3>This is a Caption for CAP1</h3>
+								<p>And this is the description cap1</p>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img src="http://placehold.it/900x500" alt="CAP2">
+				      <div class="carousel-caption">
+ 	    			  	<h3>This is a Caption for CAP2</h3>
+								<p>And this is the description cap2</p>
+				      </div>
+				    </div>
+				  </div>
+
+		  		<!-- Controls -->
+				  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				  </a>
+				</div> <!-- End of carousel -->
+				</div>
+
+				<div class="page-header">
+          <h1>Bienvenido</h1>
         </div>
         <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p>
         <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>

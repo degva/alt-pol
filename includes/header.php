@@ -8,11 +8,11 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src='img/logo-color.png' alt='ALTOPOLIMERO' style='height: 50px'></a>
+            <a class="navbar-brand" href="#home"><img src='img/logo-color.png' alt='ALTOPOLIMERO' style='height: 50px'>Altopolimero</a>
           </div>
           <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#home">Altopolimero</a></li>
+						<ul class="nav navbar-nav">
+							<!-- Alguno de estos debe tener un class='active' -->
               <li><a href="#services">Servicios</a></li>
               <li><a href="#proyects">Proyectos</a></li>
               <li><a href="#training">Capacitacion</a></li>
