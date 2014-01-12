@@ -1,0 +1,17 @@
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	background: #fff;
+}
+
+.hr {
+	width: 800px;
+	height: 10px;
+	background-color: #4b545f;
+}
+
+.content {
+	width: 800px;
+	margin: auto;
+	background-color: #e6e6e6;
+}
