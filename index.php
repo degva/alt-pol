@@ -1,4 +1,3 @@
-<!DOCTYPE HTML>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -21,3 +20,4 @@
 	<script src='assets/js/bootstrap.min.js'></script>
 	-->
 </html>
+
