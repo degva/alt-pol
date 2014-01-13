@@ -1,6 +1,6 @@
 <div class='menu'>
 	<div class='logo'>
-		<img src='img/altologo.png' width="250px"/>
+		<img src='img/altologo.png' width="200px"/>
 	</div>
 	<div class='top-catch'>
 		DESARROLLO DE TECNOLOGÍAS A LA VANGUARDIA

@@ -1,3 +1,7 @@
+a {
+	text-decoration: none !important;
+}
+
 .menu {
 	width: 800px;
 	margin: auto;
@@ -5,23 +9,27 @@
 
 .top-catch {
 	position: relative;
-	left: 275px;
-	top: -100px;
+	left: 243px;
+	top: -84px;
 	font-size: 1.2em;
 	color: #4b545f;
 }
 
 .logo {
+	left: 21px;
+	top: 10px;
+	position: relative;
 	width: 250px;
 }
 
 .social {
 	position: relative;
-	top: -170px;
+	top: -156px;
 	float: right;
 }
 
 nav {
+	z-index: 10;
 	float: right;
 	width: 550px;
 	margin-top: -46px;
@@ -56,37 +64,38 @@ nav ul li {
 
 	nav ul li:hover {
 		background: #4b545f;
-		/*
-		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
-		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
-		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
-		*/
 	}
+
 		nav ul li:hover a {
 			color: #fff;
 		}
 	
 	nav ul li a {
 		display: block;
-		padding: 10px 9px;
+		padding: 10px 6px;
 		color: #757575;
 		text-decoration: none;
 	}
 
 nav ul ul {
-	background: #5f6975; border-radius: 0px; padding: 0;
-	position: absolute; top: 100%;
+	background: #4b545f;
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute; 
+	top: 100%;
+	z-index: 1000;
 }
 	nav ul ul li {
 		float: none; 
 		border-top: 1px solid #6b727c;
 		border-bottom: 1px solid #575f6a;
 		position: relative;
+		border-radius: 0px;
 	}
 		nav ul ul li a {
-			padding: 10px 10px;
+			padding: 5px 10px;
 			color: #fff;
 		}	
 			nav ul ul li a:hover {
-				background: #4b545f;
+				background: #6b727c;
 			}
