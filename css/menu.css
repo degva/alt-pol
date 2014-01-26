@@ -10,8 +10,8 @@ a {
 .top-catch {
 	position: relative;
 	left: 243px;
-	top: -84px;
-	font-size: 1.2em;
+	top: -60px;
+	font-size: 1em;
 	color: #4b545f;
 }
 
@@ -24,7 +24,7 @@ a {
 
 .social {
 	position: relative;
-	top: -156px;
+	top: -110px;
 	float: right;
 }
 
@@ -33,7 +33,8 @@ nav {
 	float: right;
 	width: 550px;
 	margin-top: -46px;
-	margin-right: -150px;
+	/* margin-right: -150px; */
+	margin-right: -40px;
 }
 
 nav ul {

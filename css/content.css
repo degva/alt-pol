@@ -5,13 +5,54 @@ body {
 }
 
 .hr {
-	width: 800px;
+	width: auto;
 	height: 10px;
 	background-color: #4b545f;
+}
+
+.hr.top {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.hr.bottom {
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	height: auto;
+	color: white; 
+	text-align: center; 
+	margin-bottom: 10px;
+	position: fixed;
+	width: 800px;
+	z-index: 100;
+	margin-bottom: 0;
+	bottom: 0;
+	padding: 6px;
 }
 
 .content {
 	width: 800px;
 	margin: auto;
 	background-color: #e6e6e6;
+	border-radius: 7px;
+}
+
+#center-deal {
+	border-left: 2px solid #4b545f;
+	border-right: 2px solid #4b545f;
+	height:100%;
+}
+
+#text-cont {
+	padding: 10px;
+	margin-bottom: -10px
+}
+
+h2, h3 {
+	margin: auto;
+	text-align: center;
+}
+
+h3 {
+	margin-top: 10px;
 }

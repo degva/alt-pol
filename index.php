@@ -9,8 +9,9 @@
 	<body>
 		<?php include "includes/menu.php"; ?>
 		<div class='content'>
-			<div class='hr' ></div>
+			<div class='hr top' ></div>
 
+			<div id='center-deal'>
       <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
 				
         <ol class="carousel-indicators">
@@ -53,8 +54,25 @@
 				-->
 			
       </div>
-			<p>Test</p>    
-
+			<div id='text-cont'>
+				<h2>Bienvenido</h3>	
+				<h3>Somos una empresa con amplia experiencia en el desarrollo<br />
+						e implementaci&oacuten de proyectos para la industria Peruana</h3>
+				<div style='margin-left: 70px;'>
+					<p><b>Proyectos:</b> Si usted va a implementar y/o desarrollar modelos, dummmies o equipos con fibra de vidrio, estamos a su disposici&oacuten.</p>
+					<p><b>Desarrollamos:</b>
+						<ul>
+							<li>Tanques, ductos, reactores, anti&aacutecidos y concreto polim&eacuterico</li>
+							<li>Modelos 3D y Dummies</li>
+							<li>Mecatr&oacutenicos y animatr&oacutenicos</li>
+						</ul>
+					</p>
+					<p><b>Capacitaciones:</b> Capacitacitamos personal en uso y operaciones en resinas y fibra de vidrio</p>
+				</div>
+			</div>
+			</div> <!-- End of #center deal -->
+			<div style='height: 29px'></div>
+			<div class='hr bottom'>© Altopolimero | Todos los derechos reservados | 2014</div>
 		</div>
 	</body>
 	<?php include "includes/stylesscripts.php"; ?>

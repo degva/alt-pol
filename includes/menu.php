@@ -1,26 +1,27 @@
 <div class='menu'>
 	<div class='logo'>
-		<img src='img/altologo.png' width="200px"/>
+		<!-- <img src='img/altologo.png' width="200px"/> -->
+		<img src='img/altologo.png' height="100px"/>
 	</div>
 	<div class='top-catch'>
 		DESARROLLO DE TECNOLOGÍAS A LA VANGUARDIA
 	</div>
 	<div class='social'>
-		<img src='http://placehold.it/150x120'/>
+		<img src='http://placehold.it/100x100'/>
 	</div>
 	<nav>
 		<ul>
-			<li><a href='#'>SERVICIOS</a>
+			<li><a href='#'>Servicios</a>
 				<ul class='dropdown-menu'>	
-					<li><a href='#'>LINEA INDUSTRIAL</a></li>
-					<li><a href='#'>LINEA DECORATIVA</a></li>
-					<li><a href='#'>CLIENTES ATENDIDOS</a></li>
+					<li><a href='#'>Linea Industrial</a></li>
+					<li><a href='#'>Linea DecorativaA</a></li>
+					<li><a href='#'>Clientes atendidos</a></li>
 				</ul>
 			</li>
-			<li><a href='#'>PROYECTOS</a></li>
-			<li><a href='#'>CAPACITACIONES</a></li>
-			<li><a href='#'>QUIENES SOMOS</a></li>
-			<li><a href='#'>CONTACTENOS</a></li>
+			<li><a href='#'>Proyectos</a></li>
+			<li><a href='#'>Capacitaciones</a></li>
+			<li><a href='#'>Quienes Somos</a></li>
+			<li><a href='#'>Cont&aacutectenos</a></li>
 		</ul>
 	</nav>
 
