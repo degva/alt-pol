@@ -16,8 +16,10 @@ body {
 }
 
 .hr.bottom {
+	/*
 	border-bottom-left-radius: 6px;
 	border-bottom-right-radius: 6px;
+	*/
 	height: auto;
 	color: white; 
 	text-align: center; 
