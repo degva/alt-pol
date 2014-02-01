@@ -27,43 +27,41 @@ $( document ).ready(function() {
 	});
 
 	function elaborate(a,b) {
-		if ($(a).children().is(':hidden')) {
-			$(a).children().toggle('slow');
-		}
+		$(a).find('.tag').removeClass('hide');
+		$(a).find('.cont').addClass('hide');
 		$(a).animate({width: b}, 700);
-		$(a).addClass('notop');
-		$(a).find('.tag').addClass('rotate');
 	}
 
-	$('.ind').on('click', function() {
-			if ($(this).hasClass('notop')) {
-				elaborate('.pub', '5%');
-				elaborate('.dec', '4.7%');
-				elaborate('.ind', '90%');
-				$(this).addClass('op');
-				$(this).removeClass('notop');
+	$('#industrial').on('click', function() {
+			console.log('moving to industrial');
+			if ($(this).find('.cont').hasClass('hide')) {
+				elaborate('#publicitaria', '5%');
+				elaborate('#decorativa', '4.7%');
+				$(this).animate({width: '90%'}, 700);
+				$(this).find('.tag').addClass('hide');
+				$(this).find('.cont').removeClass('hide');
 			}
-			$(this).find('.tag').removeClass('rotate');
+			//$(this).find('.tag').removeClass('rotate');
 	});
-	$('.pub').on('click', function() {
-			if ($(this).hasClass('notop')) {
-				elaborate('.ind', '5%');
-				elaborate('.dec', '4.7%');
-				elaborate('.pub', '90%');
-				$(this).addClass('op');
-				$(this).removeClass('notop');
+	$('#publicitaria').on('click', function() {
+			if ($(this).find('.cont').hasClass('hide')) {
+				elaborate('#industrial', '5%');
+				elaborate('#decorativa', '4.7%');
+				$(this).animate({width: '90%'}, 700);
+				$(this).find('.tag').addClass('hide');
+				$(this).find('.cont').removeClass('hide');
 			}
-			$(this).find('.tag').removeClass('rotate');
+			//$(this).find('.tag').removeClass('rotate');
 	});
-	$('.dec').on('click', function() {
-			if ($(this).hasClass('notop')) {
-				elaborate('.pub', '5%');
-				elaborate('.ind', '4.7%');
-				elaborate('.dec', '90%');
-				$(this).addClass('op');
-				$(this).removeClass('notop');
+	$('#decorativa').on('click', function() {
+			if ($(this).find('.cont').hasClass('hide')) {
+				elaborate('#publicitaria', '5%');
+				elaborate('#industrial', '4.7%');
+				$(this).animate({width: '90%'}, 700);
+				$(this).find('.tag').addClass('hide');
+				$(this).find('.cont').removeClass('hide');
 			}
-			$(this).find('.tag').removeClass('rotate');
+			//$(this).find('.tag').removeClass('rotate');
 	});
 
 });

@@ -36,16 +36,25 @@
 
 		<div id='cuerpo'>
 
-			<div id='industrial' class='op ind'>
-				<h3 class='tag'>Linea Industrial</h3>
+			<div id='industrial'>
+				<h3 class='tag rotate hide'>Linea Industrial</h3>
+				<div class='cont'>
+					<img class='bigbub' src='http://placehold.it/500x500'>
+				</div> <!-- /.cont -->
 			</div> <!-- /#industrial -->
 
-			<div id='publicitaria' class='notop pub'>
+			<div id='publicitaria'>
 				<h3 class='tag rotate'>Linea Publicitaria</h3>
+				<div class='cont hide'>
+					<img class='bigbub' src='http://placehold.it/500x500'>
+				</div> <!-- /.cont -->
 			</div> <!-- /#publicitaria -->
 
-			<div id='decorativa' class='notop dec'>
+			<div id='decorativa'>
 				<h3 class='tag rotate'>Linea Decorativa</h3>
+				<div class='cont hide'>
+					<img class='bigbub' src='http://placehold.it/500x500'>
+				</div> <!-- /.cont -->
 			</div> <!-- /#decorativa -->
 
 		</div> <!-- /#cuerpo -->
