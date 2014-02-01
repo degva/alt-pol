@@ -56,6 +56,13 @@
       </div>
 			<div id='text-cont'>
 				<h2>Bienvenido</h3>	
+				<div id='imagery'>
+					<div class='cont'>
+		        <img src="http://placehold.it/200x200" alt="200x200">
+		        <img src="http://placehold.it/200x200" alt="200x200">
+	  	      <img src="http://placehold.it/200x200" alt="200x200">
+					</div>
+				</div>
 				<h3>Somos una empresa con amplia experiencia en el desarrollo<br />
 						e implementaci&oacuten de proyectos para la industria Peruana</h3>
 				<div style='margin-left: 70px;'>

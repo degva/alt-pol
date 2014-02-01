@@ -58,3 +58,18 @@ h2, h3 {
 h3 {
 	margin-top: 10px;
 }
+
+#imagery .cont {
+	margin: auto;
+	width: 730px;
+}
+
+	#imagery img {
+		margin: 20px;
+		border-radius: 150px;
+		-moz-border-radius: 150px;
+	}
+
+		#imagery img:hover {
+			box-shadow: 0px 0px 40px #BDE8FF;
+		}
