@@ -40,6 +40,15 @@
 				<h3 class='tag rotate hide'>Linea Industrial</h3>
 				<div class='cont'>
 					<img class='bigbub' src='http://placehold.it/500x500'>
+					<div class='context'>
+						<h3>Linea Industrial</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+								Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+								Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
+							</p>
+					</div> <!-- /.context -->
 				</div> <!-- /.cont -->
 			</div> <!-- /#industrial -->
 
@@ -47,6 +56,15 @@
 				<h3 class='tag rotate'>Linea Publicitaria</h3>
 				<div class='cont hide'>
 					<img class='bigbub' src='http://placehold.it/500x500'>
+					<div class='context'>
+						<h3>Linea Publicitaria</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+								Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+								Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
+							</p>
+					</div> <!-- /.context -->
 				</div> <!-- /.cont -->
 			</div> <!-- /#publicitaria -->
 
@@ -54,6 +72,15 @@
 				<h3 class='tag rotate'>Linea Decorativa</h3>
 				<div class='cont hide'>
 					<img class='bigbub' src='http://placehold.it/500x500'>
+					<div class='context'>
+						<h3>Linea Decorativa</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+								Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+								Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
+							</p>
+					</div> <!-- /.context -->
 				</div> <!-- /.cont -->
 			</div> <!-- /#decorativa -->
 

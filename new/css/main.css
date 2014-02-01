@@ -139,12 +139,18 @@ a {
 	display: none !important;
 }
 
-.cont .bigbub {
-	position: relative;
-	border-radius: 400px;
-	padding: 5px;
-	border: 1px solid #888;
+.cont {
+	width: 1000px;
+	margin: 0 auto;
+	max-height: 100% !important;
 }
+
+	.cont .bigbub {
+		position: relative;
+		border-radius: 400px;
+		padding: 5px;
+		border: 1px solid #888;
+	}
 
 #industrial .bigbub {
 	left: -10%;
@@ -161,6 +167,17 @@ a {
 	top: -7%;
 	float: right;
 }
+
+.context {
+	float: right;
+	top: -70%;
+	text-align: center;
+}
+
+	#decorativa .context {
+		float: left !important;
+	}
+
 /*
 #toplogo {
 	position: absolute;

@@ -24,6 +24,12 @@ $( document ).ready(function() {
 		$('#inicio').toggle('slow');
 		$('#cuerpo').toggle('slow');
 
+
+		// Cambiar img por logo
+		var $newwelc = '<div style="margin: 0px auto; height: 80%; width: 250px; top: -15%;"><img src="http://placehold.it/50x50" style="float:left;"><h2 style="margin: 0px auto; padding-top: 5%;">ALTOPOLIMERO</h2></div>'
+		
+		$('#welcomer').append($newwelc);
+
 	});
 
 	function elaborate(a,b) {
