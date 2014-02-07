@@ -17,7 +17,7 @@ body {
 	background-color: #777;
 	color: #fff;
 	text-shadow: 1px 1px 0px #000, -1px -1px 0px #777;
-	border-bottom: 1px solid #888;
+	border-bottom: 5px solid #888;
 }
 
 	#welcomer div {
