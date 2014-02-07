@@ -42,12 +42,17 @@
 					<img class='bigbub' src='http://placehold.it/500x500'>
 					<div class='context'>
 						<h3>Linea Industrial</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-								Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
-							</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-								Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
-							</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+							Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
+						</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+							Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
+						</p>
+						<div class='buttons'>
+							<button value='gale'>Galeria</button>
+							<button value='clien'>Clientes</button>
+							<button value='contact'>Contactenos</button>
+						</div> <!-- /.buttons -->
 					</div> <!-- /.context -->
 				</div> <!-- /.cont -->
 			</div> <!-- /#industrial -->
@@ -58,12 +63,12 @@
 					<img class='bigbub' src='http://placehold.it/500x500'>
 					<div class='context'>
 						<h3>Linea Publicitaria</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-								Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
-							</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-								Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
-							</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+							Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
+						</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+							Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
+						</p>
 					</div> <!-- /.context -->
 				</div> <!-- /.cont -->
 			</div> <!-- /#publicitaria -->

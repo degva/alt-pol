@@ -184,3 +184,26 @@ a {
 	height: 70%;
 }
 */
+
+
+button {
+	background-color: #EEEEEE;
+	border-color: -moz-use-text-color -moz-use-text-color #777777;
+	border-style: none none solid;
+	border-width: medium medium 4px;
+	height: 30px;
+	margin: 10px;
+	width: 100px;
+}
+
+button:active {
+	border-bottom: 2px solid #777;
+	height: 28px;
+	margin-top: 12px;
+}
+
+.buttons {
+	width: 400px;
+	padding: 5px;
+	height: 100px !important;
+}
