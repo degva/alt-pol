@@ -70,4 +70,23 @@ $( document ).ready(function() {
 			//$(this).find('.tag').removeClass('rotate');
 	});
 
+	$('button[value=gale]').on('click', function() {
+		var $gale = $(this).parent().parent().parent().parent().find('.gale')
+		var $actdis = $gale.css('display');
+		console.log('Actual Display: ' + $actdis);
+		if ($actdis == 'block') {
+			$gale.fadeOut('slow');
+			$('#industrial').find('.cont').fadeIn('slow');
+		} else {
+			$gale.fadeIn('slow');
+			$('#industrial').find('.cont').fadeOut('slow');
+		}
+	});
+
+	$('button.closeBtt').on('click', function() {
+		var $cont = $(this).parent().parent().find('.cont');
+		$cont.fadeIn('slow');
+		$('#industrial').find('.gale').fadeOut('slow');
+	});
+
 });

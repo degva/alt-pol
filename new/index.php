@@ -49,12 +49,20 @@
 							Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
 						</p>
 						<div class='buttons'>
-							<button class='' value='gale'>Galeria</button>
-							<button class='' value='clien'>Clientes</button>
-							<button class='' value='contact'>Contactenos</button>
+							<button value='gale'>Galeria</button>
+							<button value='clien'>Clientes</button>
+							<button value='contact'>Contactenos</button>
 						</div> <!-- /.buttons -->
 					</div> <!-- /.context -->
 				</div> <!-- /.cont -->
+				<div class='gale'>
+					<h3>Galeria</h3>		
+					<button alt='Regresar' class='closeBtt'>X</button>
+				</div>
+				<div class='clien'>
+				</div>
+				<div class='contact'>
+				</div>
 			</div> <!-- /#industrial -->
 
 			<div id='publicitaria'>

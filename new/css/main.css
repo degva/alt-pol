@@ -244,3 +244,17 @@ button {
 	height: 100px !important;
 	margin: 0 auto;
 }
+
+.closeBtt {
+	float: right;
+	height: 25px;
+	width: 25px;
+	margin-top: -4%;
+}
+
+.gale {
+	display: none;
+	width: 1000px;
+	/* height: 100%; */
+	margin: 0 auto;
+}
