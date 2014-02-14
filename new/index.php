@@ -49,9 +49,9 @@
 							Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
 						</p>
 						<div class='buttons'>
-							<button value='gale'>Galeria</button>
-							<button value='clien'>Clientes</button>
-							<button value='contact'>Contactenos</button>
+							<button class='' value='gale'>Galeria</button>
+							<button class='' value='clien'>Clientes</button>
+							<button class='' value='contact'>Contactenos</button>
 						</div> <!-- /.buttons -->
 					</div> <!-- /.context -->
 				</div> <!-- /.cont -->
@@ -69,6 +69,11 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
 							Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
 						</p>
+						<div class='buttons'>
+							<button class='' value='gale'>Galeria</button>
+							<button class='' value='clien'>Clientes</button>
+							<button class='' value='contact'>Contactenos</button>
+						</div> <!-- /.buttons -->
 					</div> <!-- /.context -->
 				</div> <!-- /.cont -->
 			</div> <!-- /#publicitaria -->
@@ -85,6 +90,11 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
 								Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. 
 							</p>
+						<div class='buttons'>
+							<button class='' value='gale'>Galeria</button>
+							<button class='' value='clien'>Clientes</button>
+							<button class='' value='contact'>Contactenos</button>
+						</div> <!-- /.buttons -->
 					</div> <!-- /.context -->
 				</div> <!-- /.cont -->
 			</div> <!-- /#decorativa -->
