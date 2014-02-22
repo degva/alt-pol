@@ -9,24 +9,28 @@
 			<div>
 				<img id='toplogo' src='http://placehold.it/350x200'>
 				<!-- <p>Y aqui van otras cosas D:<br> -->
-				<br><a id='closeW' href='#'>ENTRAR</a>
+				<br><a id='closeW' href='#inicio'>ENTRAR</a>
+			</div>
+			<div id='newWelc' style="margin: 0px auto; height: 80%; width: 250px; top: -15%;">
+				<img src="http://placehold.it/50x50" style="float:left;">
+				<h2 style="margin: 0px auto; padding-top: 5%;">ALTOPOLIMERO</h2>
 			</div>
 		</div> <!-- /#welcomer -->
 
 		<div id='inicio'>
-			<div>
+			<div id='init'>
 				<h4>Una empresa dedicada a las necesidades del cliente</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. </p>
 				<div id='bubbles'>
-					<div class='bub' target='industrial'>
+					<div class='bub' target='industrial' onclick="document.location.href = '#industrial'">
 						<img src='http://placehold.it/200x200'>
 						<small>Linea Industrial</small>
 					</div>
-					<div class='bub' target='publicitaria'>
+					<div class='bub' target='publicitaria' onclick="document.location.href = '#publicitaria'">
 						<img src='http://placehold.it/200x200'>
 						<small>Linea Publicitaria</small>
 					</div>
-					<div class='bub' target='decorativa'>
+					<div class='bub' target='decorativa' onclick="document.location.href = '#decorativa'">
 						<img src='http://placehold.it/200x200'>
 						<small>Linea Decorativa</small>
 					</div>
@@ -35,8 +39,8 @@
 		</div> <!-- /#inicio -->
 
 		<div id='cuerpo'>
-
-			<div id='industrial'>
+			<div id='descriptions'>
+			<div id='industrial' onclick="document.location.href = '#industrial'">
 				<h3 class='tag rotate hide'>Linea Industrial</h3>
 				<div class='cont'>
 					<img class='bigbub' src='http://placehold.it/500x500'>
@@ -56,8 +60,10 @@
 					</div> <!-- /.context -->
 				</div> <!-- /.cont -->
 				<div class='gale'>
-					<h3>Galeria</h3>		
-					<button alt='Regresar' class='closeBtt'>X</button>
+					<div class='content'>
+						<h3>Galeria</h3>		
+						<button alt='Regresar' class='closeBtt'>X</button>
+					</div>
 				</div>
 				<div class='clien'>
 				</div>
@@ -65,7 +71,7 @@
 				</div>
 			</div> <!-- /#industrial -->
 
-			<div id='publicitaria'>
+			<div id='publicitaria' onclick="document.location.href = '#publicitaria'">
 				<h3 class='tag rotate'>Linea Publicitaria</h3>
 				<div class='cont hide'>
 					<img class='bigbub' src='http://placehold.it/500x500'>
@@ -86,7 +92,7 @@
 				</div> <!-- /.cont -->
 			</div> <!-- /#publicitaria -->
 
-			<div id='decorativa'>
+			<div id='decorativa' onclick="document.location.href = '#decorativa'">
 				<h3 class='tag rotate'>Linea Decorativa</h3>
 				<div class='cont hide'>
 					<img class='bigbub' src='http://placehold.it/500x500'>
@@ -106,7 +112,7 @@
 					</div> <!-- /.context -->
 				</div> <!-- /.cont -->
 			</div> <!-- /#decorativa -->
-
+		</div> <!-- /#desciptions -->
 		</div> <!-- /#cuerpo -->
 
 
