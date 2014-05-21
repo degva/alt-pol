@@ -1,0 +1,274 @@
+body {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+	color: #222;
+	text-shadow: 1px 1px 0px #fff, -1px -1px 0px #ddd;
+	overflow: hidden;
+}
+
+#newWelc {
+	display: none;
+}
+
+#welcomer {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+	background-image: url('../img/backgr000.png');
+	background-color: #777;
+	color: #fff;
+	text-shadow: 1px 1px 0px #000, -1px -1px 0px #777;
+	border-bottom: 5px solid #888;
+}
+
+	#welcomer div {
+		margin: 0 auto;
+		text-align: center; 
+		position: relative;
+		top: 200px;
+	}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#inicio {
+	position: absolute;
+	/* top: 200px; */
+	height: 100%;
+	width: 100%;
+	background-image: url('../img/backgr001.png');
+	left: 0px;
+}
+
+	#inicio #init {
+		position: relative;
+		margin: 0 auto;
+		text-align: center;
+		top: 250px;
+	}
+
+#bubbles {
+	margin: 0 auto;
+	width: 810px;
+}
+
+.bub {
+	float: left;
+	width: 270px;
+	position: relative;
+}
+
+	.bub:hover {
+		font-weight: bold;
+	}
+
+	.bub:hover img {
+		cursor: pointer;
+		-moz-box-shadow: 0px 0px 4px #ddd;
+		-webkit-box-shadow: 0px 0px 4px #ddd;
+		box-shadow: 0px 0px 4px #ddd;
+	}
+
+	.bub img {
+		padding: 5px;
+		margin: 15px;
+		border: 1px solid #ddd;
+		border-radius: 120px;
+	}
+
+	.bub small {
+		position: relative;
+		top: -12px;
+	}
+
+		.bub small:hover {
+			cursor: pointer;
+		}
+
+#cuerpo {
+	position: absolute;
+	top: 10%;
+	height: 90%;
+	width: 100%;
+	background-image: url('../img/backgr001.png');
+	display: none;
+	left: 0px;
+}
+
+	#cuerpo div {
+		position: relative;
+		height: 100%;
+	}
+
+	#cuerpo > div {
+		margin: 0 auto;
+		width: 1200px;
+	}
+
+#industrial {
+	background-image: url('../img/backgr002.png');
+	float:left;
+	width: 1500px;
+	border-right: 1px solid #ddd;
+	z-index: 100;
+}
+
+#publicitaria {
+	background-image: url('../img/backgr003.png');
+	float:left;
+	width: 80px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #ddd;
+	z-index: 50;
+}
+
+#decorativa {
+	background-image: url('../img/backgr004.png');
+	float:left;
+	width: 80px;
+	border-left: 1px solid #fff;
+	z-index: 0;
+}
+
+.rotate {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	bottom: -90px;
+	position: relative;
+}
+
+.hide {
+	display: none !important;
+}
+
+.cont {
+	width: 1000px;
+	margin: 0 auto;
+	max-height: 100% !important;
+}
+
+	.cont .bigbub {
+		position: relative;
+		border-radius: 400px;
+		padding: 5px;
+		border: 1px solid #888;
+	}
+
+#industrial .bigbub {
+	left: -10%;
+	top: -7%;
+}
+
+#publicitaria .bigbub {
+	left: -10%;
+	bottom: -25%;
+}
+
+#decorativa .bigbub {
+	right: -10%;
+	top: -7%;
+	float: right;
+}
+
+.context {
+	float: right;
+	/* top: -70%; */
+	top: -400px;
+	text-align: center;
+}
+
+	#decorativa .context {
+		float: left !important;
+	}
+
+/*
+#toplogo {
+	position: absolute;
+	height: 70%;
+}
+*/
+
+
+button {
+	/* background-color: #EEEEEE; */
+	/* border-color: -moz-use-text-color -moz-use-text-color #777777; */
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	/*border: 1px solid #777;*/
+	height: 30px;
+	margin: 10px;
+	width: 100px;
+	padding: 0px;
+}
+
+	/* .ind buttons */
+	button {
+		background-color: rgba(238,238,238,0.5);
+		border-color: #777;
+	}
+	button:hover { background-color: rgba(221,221,221,0.5); }
+	button:active {
+		color: #fff;
+		background-color: rgba(85,85,85,0.5);
+		border-color: #eee;
+	}
+	/* /.ind buttons */
+
+	/* .pub buttons */
+	button.pub {
+		background-color: #83DAFF;
+		border-color: #777;
+	}
+	button.pub:hover { background-color: #6CA2E8; }
+	button.pub:active {
+		color: #fff;
+		background-color: #3D5B82;
+		border-color: #eee;
+	}
+	/* /.pub buttons */
+
+	/* .dec buttons */
+	button.dec {
+		background-color: #D9C58B;
+		border-color: #777;
+	}
+	button.dec:hover { background-color: #C2BA8E; }
+	button.dec:active {
+		color: #fff;
+		background-color: #45442F;
+		border-color: #eee;
+	}
+	/* /.dec buttons */
+
+.buttons {
+	width: 400px;
+	padding: 5px;
+	height: 100px !important;
+	margin: 0 auto;
+}
+
+.closeBtt {
+	float: right;
+	height: 25px;
+	width: 25px;
+	margin-top: -4%;
+}
+
+.gale {
+	display: none;
+	width: 1000px;
+	/* height: 100%; */
+	margin: 0 auto;
+}
+
+.content {
+	top: 30px;
+}
