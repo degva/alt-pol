@@ -4,7 +4,7 @@ body {
 	font-size: 14px;
 	color: #222;
 	text-shadow: 1px 1px 0px #fff, -1px -1px 0px #ddd;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 h1, h2, h3, h4, p {
@@ -26,6 +26,7 @@ p {
 	height: 100%;
 	top: 0;
 	left: 0;
+	
 }
 
 .center {
@@ -78,9 +79,12 @@ h2 {
 
 #aaa{
 	display: none; /*descomentar esto luego */
-	position: relative;
+	/* position: relative;
 	width: 100%;
-	height: 100%;
+	height: 100%; */
+	border-left: solid 1px #aaa;
+	border-right: solid 1px #aaa;
+	box-shadow: 0px 0px 10px #aaa;
 }
 
 #sub-menu-1 {
@@ -90,7 +94,7 @@ h2 {
 #social-network {
 	position: relative;
 	float: right;
-	width: 250px;
+	width: 180px;
 	height: 75px;
 	top: 20px;
 	font-size: 10px;
@@ -125,6 +129,7 @@ a.rs:hover {
 
 #bubbles {
 	left: 38px;
+	height: 260px;
 }
 
 .bub {
