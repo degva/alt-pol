@@ -7,7 +7,18 @@
 					<div id='email'><i class="fa fa-envelope"></i><a class='rs' href='mailto:altopolimero.ger@gmail.com'>altopolimero.ger@gmail.com</a></div>
 				</div>
 				<div id='sub-menu-1' class='right width8'>
+<?php
+	if ($pagenum == 1) {
+?>
+					<a class='sub-menu-opt active' href='#home'>Inicio</a>
+<?php
+	} else {
+?>
 					<a class='sub-menu-opt' href='#home'>Inicio</a>
+<?php
+	}
+?>
+
 					<a class='sub-menu-opt' href='#quienes-somos'>Quienes Somos</a>
 					<a class='sub-menu-opt' href='#contacto'>Contacto</a>
 				</div>
