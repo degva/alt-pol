@@ -1,0 +1,113 @@
+body {
+	/* font-family: Verdana, Arial, sans-serif; */
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #222;
+	text-shadow: 1px 1px 0px #fff, -1px -1px 0px #ddd;
+	overflow: hidden;
+}
+
+h1, h2, h3, h4, p {
+	font-weight: normal;
+}
+
+.principal {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.center {
+	position: relative;
+	margin: 0 auto;
+}
+
+.right {
+	position: relative;
+	float: right;
+}
+
+.width-pri {
+	width: 800px;
+}
+
+.width8 {
+	width: 650px;
+}
+
+.bienv {
+	padding-top: 15%;
+}
+
+.img-cont {
+	width: 300px;	
+}
+
+h2 {
+	text-align: center;
+}
+
+/* css para logo princial */
+#logo-prin {
+	position: relative;
+	margin: 0 auto;
+	width: 300px;
+}
+
+#logo-sec {
+	position: relative;
+	width: 150px;
+}
+
+/*
+#bien {
+	/* display: none; * /
+}
+/* --- */
+
+#aaa{
+	display: none; /*descomentar esto luego */
+	
+}
+
+#sub-menu-1 {
+	top: -32px;
+}
+
+#social-network {
+	position: relative;
+	float: right;
+	width: 250px;
+	height: 75px;
+	top: 20px;
+	font-size: 10px;
+}
+
+.sub-menu-opt {
+	position: relative;
+	display: table-row;
+	float: left;
+	margin-left: 70px;
+	text-decoration: none;
+	color: #222;
+}
+
+.sub-menu-opt:hover {
+	color: #03184F;
+	text-shadow: 1px 1px 2px #ddd, -1px -1px 2px #aaa;
+}
+
+a.rs {
+	position: relative;
+	margin-left: 8px;
+	text-decoration: none !important;
+	color: #222 !important;
+}
+
+a.rs:hover {
+	color: #03184F !important;
+	/* text-shadow: 1px 1px 2px #ddd, -1px -1px 2px #aaa; */
+	cursor: pointer;
+}
