@@ -39,6 +39,8 @@ p {
 	float: right;
 }
 
+
+
 .width-pri {
 	width: 800px;
 }
@@ -80,11 +82,29 @@ h2 {
 #aaa{
 	display: none; /*descomentar esto luego */
 	/* position: relative;
-	width: 100%; 
 	height: 100%; */
+	width: 802px; 
+	min-height: 800px;
 	border-left: solid 1px #aaa;
 	border-right: solid 1px #aaa;
 	box-shadow: 0px 0px 10px #aaa;
+}
+
+#init {
+	bottom: 25px;
+}
+
+#footer {
+	bottom: 0;
+	margin-bottom: 0;
+	position: fixed;
+	padding: 3px;
+	height: auto;
+	text-align: center;
+	z-index: 3;
+	font-size: 12px;
+	background-color: #eee;
+	border-top: solid 1px #aaa;
 }
 
 #sub-menu-1 {
@@ -144,15 +164,29 @@ a.rs:hover {
 }
 
 #bubbles {
-	left: 38px;
+	/* left: 38px; */
 	height: 260px;
 }
 
+	#bubbles.bubbles-out {
+		height: 80px;
+		margin-bottom: 15px;
+		padding-top: 10px;
+		background-color: rgba(1,158,203,0.3);
+	}
+
 .bub {
+	margin-left: 50px;
 	float: left;
-	width: 245px;
+	width: 200px;
 	position: relative;
 }
+
+	.bub.bub-old {
+		height: 60px;
+		width: 60px;
+		margin-left: 162px;
+	}
 
 	.bub:hover {
 		font-weight: bold;
@@ -167,17 +201,31 @@ a.rs:hover {
 
 	.bub img {
 		padding: 5px;
-		margin: 15px;
+		/* margin: 15px; */
 		border: 1px solid #ddd;
-		border-radius: 110px;
+		border-radius: 125px;
+		width: 100%;
+	}
+
+	.bub img.small-btn {
+		display: none;
+		padding: 5px;
+		border: 1px solid #ddd;
+		border-radius: 30px;
+		width: 100%;
 	}
 
 	.bub small {
 		position: relative;
-		top: -12px;
+		top: -60px;
 		display: table;
+		font-size: small;
 	}
 
 		.bub small:hover {
 			cursor: pointer;
 		}
+
+.context {
+	display: none;
+}

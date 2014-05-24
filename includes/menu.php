@@ -13,16 +13,16 @@
 <?php
 	if ($pagenum == 1) {
 ?>
-					<a class='sub-menu-opt active' href='#home'>Inicio</a>
+					<a id='-menu-inicio' class='sub-menu-opt active' href='#home'>Inicio</a>
 <?php
 	} else {
 ?>
-					<a class='sub-menu-opt' href='#home'>Inicio</a>
+					<a id='-menu-inicio' class='sub-menu-opt' href='#home'>Inicio</a>
 <?php
 	}
 ?>
 
-					<a class='sub-menu-opt' href='#quienes-somos'>Quienes Somos</a>
-					<a class='sub-menu-opt' href='#contacto'>Contacto</a>
+					<a id='-menu-qsomos' class='sub-menu-opt' href='#quienes-somos'>Quienes Somos</a>
+					<a id='-menu-contac' class='sub-menu-opt' href='#contacto'>Contacto</a>
 				</div>
 			</div>

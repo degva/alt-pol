@@ -9,7 +9,12 @@
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<title>ALTOPOLIMERO</title>
+
+		<!-- Jquery Stuff -->
 		<script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+
 	</head>
 	<body>
 		<div class='principal'>
@@ -26,6 +31,7 @@
 			<!-- START INIT -->
 			<br />
 			<div id='init' class='center width-pri'>
+				<div id='welcomer'>
 				<h3 class='center width-pri'>Una empresa dedicada a las necesidades del cliente</h3>
 				<br />
 
@@ -43,55 +49,64 @@
     <div class="item active">
       <img src="http://placehold.it/800x300"> <!-- alt='...' -->
       <div class="carousel-caption">
-				<h3>This that and then</h3>
-				<p>And other stuff</p>
+				<h3>Foto 1</h3>
+				<p>Comentario para foto 1</p>
       </div>
     </div>
     <div class="item">
       <img src="http://placehold.it/800x300"> <!-- alt='...' -->
       <div class="carousel-caption">
-				<h3>This that and then</h3>
-				<p>And other stuff</p>
+				<h3>Foto 2</h3>
+				<p>Comentario para foto 2</p>
       </div>
     </div>
     <div class="item">
       <img src="http://placehold.it/800x300"> <!-- alt='...' -->
       <div class="carousel-caption">
-				<h3>This that and then</h3>
-				<p>And other stuff</p>
+				<h3>Foto 3</h3>
+				<p>Comentario para foto 3</p>
       </div>
     </div>
   </div>
 
-  <!-- Controls -->
+	<!-- Controls -->
+	<!-- 
   <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
   </a>
   <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
+	</a>
+	-->
 </div>
 				<!-- END CAROUSEL -->
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. </p>
+				</div> <!-- /#welcomer -->
 				<div id='bubbles' class='center width-pri'>
 					<div class='bub' target='industrial' onclick="document.location.href = '#industrial'">
-						<img src='http://placehold.it/200x200'>
+						<img class='big-btn' src='http://placehold.it/200x200'>
+						<img class='small-btn' src='http://placehold.it/50x50x'>
 						<small class='center'>Linea Industrial</small>
 					</div>
 					<div class='bub' target='publicitaria' onclick="document.location.href = '#publicitaria'">
-						<img src='http://placehold.it/200x200'>
+						<img class='big-btn' src='http://placehold.it/200x200'>
+						<img class='small-btn' src='http://placehold.it/50x50x'>
 						<small class='center'>Linea Publicitaria</small>
 					</div>
 					<div class='bub' target='decorativa' onclick="document.location.href = '#decorativa'">
-						<img src='http://placehold.it/200x200'>
+						<img class='big-btn' src='http://placehold.it/200x200'>
+						<img class='small-btn' src='http://placehold.it/50x50x'>
 						<small class='center'>Linea Decorativa</small>
 					</div>
 				</div>
 			</div>
 			<!-- END INIT -->
-			<div id='footer'>
-				
+			<div id='industrial' class='context center width-pri'>
+				<h3 class='center'>Linea Indutrial</h3>	
+			</div>
+			<div id='footer' class='width-pri'>
+				Altopolimero | 2014 | Todos los derechos reservados			
 			</div>
 		</div>
 	</body>
