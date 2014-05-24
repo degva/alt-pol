@@ -9,21 +9,33 @@ $(document).ready(function() {
 		$('#bien').fadeOut('slow');
 	}, 1500);
 
-	// En caso de que exista un hash dentro de la pagina:
-	if (window.location.hash) {
-		console.log('DEBUG: Encontre un hash! D:');
-		the_hash = window.location.hash;
-		console.log('Y es ' + the_hash + ' D:');
-	}
-
 	setTimeout(function() {
 		// Y sacamos el #aaa
 		$('#aaa').fadeIn('slow');
 	}, 2000);
 
+	// En caso de que exista un hash dentro de la pagina:
+	if (window.location.hash) {
+		console.log('DEBUG: Encontre un hash! D:');
+		the_hash = window.location.hash;
+		console.log('Y es ' + the_hash + ' D:');
+
+		if (the_hash == '#home' || the_hash == '') {
+			console.log('Comenzando con Home');
+			// $('#welcomer').toggle('fast');
+		} else if (the_hash == '#industrial') {
+			console.log('Comenzando con industrial');
+			disappearFront();
+			setTimeout(function() {
+				$('#industrial').toggle('blind');
+			}, 1000);
+		}
+		lastHash = the_hash;
+	}
 
 	function disappearFront() {
-		$('#welcomer').toggle('blind');
+		console.log('DEBUG: disappearFront()');
+		$('#welcomer').fadeOut('blind'); // toggle no parece funcionar bien .-.
 		$('#bubbles').fadeOut('fast');
 		$('.bub img.big-btn').fadeOut('fast');
 		$('#-menu-inicio').removeClass('active');
@@ -39,16 +51,19 @@ $(document).ready(function() {
 	}
 
 	function appearFront() {
-		$('.context').toggle('blind');
+		console.log('DEBUG: appearFront()');
+		$('.context').fadeOut('fast');
 		$('#bubbles').fadeOut('fast');
-		$('#bubbles').removeClass('bubbles-out');
 		$('.bub img.small-btn').fadeOut('fast');
-		$('.bub small').fadeIn('fast');
-		$('.bub').removeClass('bub-old');
 		$('#-menu-inicio').addClass('active');
-		$('.bub img.big-btn').fadeIn('fast');
-		$('#bubbles').fadeIn('slow');
-		$('#welcomer').toggle('blind');
+		setTimeout(function() {
+		$('#bubbles').removeClass('bubbles-out');
+			$('.bub').removeClass('bub-old');
+			$('.bub img.big-btn').fadeIn('slow');
+			$('#bubbles').fadeIn('slow');
+			$('.bub small').fadeIn(1000);
+			$('#welcomer').toggle('blind');
+		}, 200);
 		
 	}
 
@@ -59,8 +74,10 @@ $(document).ready(function() {
 		console.log('DEBUG: Y es: ' + newHash);
 		// Entonces primero desaparesco init :d
 		if ((newHash == '' || newHash == '#home') && lastHash != '') {
+			console.log('Appearing Front!');
 			appearFront();
-		} else if (newHash == '#industrial') {
+		} else if (newHash == '#industrial' && lastHash != '#industrial') {
+			console.log('Moving to Indutrial');
 			disappearFront();
 			$('#industrial').toggle('blind');
 		}

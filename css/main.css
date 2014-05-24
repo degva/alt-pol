@@ -39,7 +39,50 @@ p {
 	float: right;
 }
 
+.left {
+	position: relative;
+	float: left;
+}
 
+.portafolio {
+	position: relative;
+	display: table;
+	background-color: #eee;
+	padding-bottom: 40px;
+}
+	.portafolio .fotos {
+		position: relative;
+		/* display: table-row; */
+	}
+
+	.portafolio .foto-porta {
+		width: 150px;
+		height: 150px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.portafolio .foto-porta small {
+		text-align: center;
+		width: 150px;
+		font-size: small;
+		top: -25px;
+		display: table;
+	}
+
+.clientes {
+	padding-bottom: 40px;
+	display: table;
+}
+
+	.clientes .cli-list {
+		display: table;
+	}
+	.clientes .cli-list ul {
+		/* display: table-column; */
+		float: left;
+		width: 300px;
+	}
 
 .width-pri {
 	width: 800px;
@@ -92,6 +135,10 @@ h2 {
 
 #init {
 	bottom: 25px;
+}
+
+#welcomer {
+	/* display: none; */
 }
 
 #footer {
@@ -170,7 +217,8 @@ a.rs:hover {
 
 	#bubbles.bubbles-out {
 		height: 80px;
-		margin-bottom: 15px;
+		margin-bottom: 10px;
+		margin-top: 15px;
 		padding-top: 10px;
 		background-color: rgba(1,158,203,0.3);
 	}
