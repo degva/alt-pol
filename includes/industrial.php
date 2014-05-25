@@ -9,31 +9,31 @@
 				<div class='width-pri center portafolio'>
 					<h3>Portafolio</h3>
 					<div class='fotos center width8'>
-						<div class='foto-porta left'>
+						<div id='i01' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
 							<small class='center'>Foto Uno</small>
 						</div>
-						<div class='foto-porta left'>
+						<div id='i02' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
 							<small class='center'>Foto Dos</small>
 						</div>
-						<div class='foto-porta left'>
+						<div id='i03' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
 							<small class='center'>Foto Tres</small>
 						</div>
-						<div class='foto-porta left'>
+						<div id='i04' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
 							<small class='center'>Foto Cuatro</small>
 						</div>
-						<div class='foto-porta left'>
+						<div id='i05' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
 							<small class='center'>Foto Cinco</small>
 						</div>
-						<div class='foto-porta left'>
+						<div id='i06' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
 							<small class='center'>Foto Seis</small>
 						</div>
-						<div class='foto-porta left'>
+						<div id='i07' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
 							<small class='center'>Foto Siete</small>
 						</div>

@@ -9,31 +9,31 @@
 				<div class='width-pri center portafolio'>
 					<h3>Portafolio</h3>
 					<div class='fotos center width8'>
-						<div class='foto-porta left'>
+						<div id='d01' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Uno</small>
+							<small class='center'>Foto Siete</small>
 						</div>
-						<div class='foto-porta left'>
+						<div id='d02' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Dos</small>
+							<small class='center'>Foto Siete</small>
 						</div>
-						<div class='foto-porta left'>
+						<div id='d03' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Tres</small>
+							<small class='center'>Foto Siete</small>
 						</div>
-						<div class='foto-porta left'>
+						<div id='d04' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Cuatro</small>
+							<small class='center'>Foto Siete</small>
 						</div>
-						<div class='foto-porta left'>
+						<div id='d05' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Cinco</small>
+							<small class='center'>Foto Siete</small>
 						</div>
-						<div class='foto-porta left'>
+						<div id='d06' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Seis</small>
+							<small class='center'>Foto Siete</small>
 						</div>
-						<div class='foto-porta left'>
+						<div id='d07' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
 							<small class='center'>Foto Siete</small>
 						</div>

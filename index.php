@@ -121,6 +121,24 @@
 			</div>
 			<!-- /PUBLICITARIA -->
 
+			<!-- MODAL PARA FOTOS -->
+<div class="modal fade" id="fotoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+				<div class="loader">Loading...</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+			<!-- /MODAL -->
 
 			<div id='footer' class='width-pri'>
 				Altopolimero | 2014 | Todos los derechos reservados			
