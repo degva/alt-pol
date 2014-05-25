@@ -27,10 +27,49 @@ $(document).ready(function() {
 			console.log('Comenzando con industrial');
 			disappearFront();
 			setTimeout(function() {
-				$('#industrial').toggle('blind');
+				$('#industrial').fadeIn('blind');
+				if($('#industrial').has('div.loader').length) {
+					retrievePage('industrial');
+				}
+			}, 1000);
+		} else if (the_hash == '#publicitaria') {
+			console.log('Comenzando con publicitaria');
+			disappearFront();
+			setTimeout(function() {
+				$('#publicitaria').fadeIn('blind');
+				if($('#publicitaria').has('div.loader').length) {
+					retrievePage('publicitaria');
+				}
+			}, 1000);
+		} else if (the_hash == '#decorativa') {
+			console.log('Comenzando con decorativa');
+			disappearFront();
+			setTimeout(function() {
+				$('#decorativa').fadeIn('blind');
+				if($('#decorativa').has('div.loader').length) {
+					retrievePage('decorativa');
+				}
 			}, 1000);
 		}
 		lastHash = the_hash;
+	}
+
+	function retrievePage(page) {
+		url_ready = 'includes/' + page + '.php';
+		console.log('retrieving page!');
+		$.ajax({
+			type: 'post',
+			url: url_ready,
+			success: function(e) {
+				setTimeout(function() {
+					$('#'+page).fadeOut('slow');;
+					setTimeout(function() {
+						$('#'+page).html(e);
+						$('#'+page).fadeIn('slow');;
+					}, 500);
+				}, 500);
+			}
+		});
 	}
 
 	function disappearFront() {
@@ -80,7 +119,25 @@ $(document).ready(function() {
 			console.log('Moving to Indutrial');
 			disappearFront();
 			$('#industrial').toggle('blind');
+			if($('#industrial').has('div.loader').length) {
+				retrievePage('industrial');
+			}
+		} else if (newHash == '#publicitaria' && lastHash != '#publicitaria') {
+			console.log('Moving to Publicitaria');
+			disappearFront();
+			$('#publicitaria').toggle('blind');
+			if($('#publicitaria').has('div.loader').length) {
+				retrievePage('publicitaria');
+			}
+		} else if (newHash == '#decorativa' && lastHash != '#decorativa') {
+			console.log('Moving to Decorativa');
+			disappearFront();
+			$('#decorativa').toggle('blind');
+			if($('#decorativa').has('div.loader').length) {
+				retrievePage('decorativa');
+			}
 		}
+
 		lastHash = newHash;
 	});
 
