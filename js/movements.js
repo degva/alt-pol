@@ -82,7 +82,8 @@ $(document).ready(function() {
 			// $('.bub').css({'height': '60px','width': '60px','margin-left': '162px'});
 			$('.bub').addClass('bub-old');
 			$('.bub small').fadeOut('fast');
-			$('.bub img.small-btn').fadeIn('fast');
+			$('.bub h4.small-btn').fadeIn('fast');
+			//$('.bub img.small-btn').fadeIn('fast');
 			// $('#bubbles').css({'height': '80px', 'margin-bottom': '15px', 'padding-top': '10px', 'background-color': 'rgba(1,158,203,0.3)'});
 			$('#bubbles').addClass('bubbles-out');
 			$('#bubbles').fadeIn('slow');
@@ -93,7 +94,8 @@ $(document).ready(function() {
 		console.log('DEBUG: appearFront()');
 		$('.context').fadeOut('fast');
 		$('#bubbles').fadeOut('fast');
-		$('.bub img.small-btn').fadeOut('fast');
+		$('.bub h4.small-btn').fadeOut('fast');
+		//$('.bub img.small-btn').fadeOut('fast');
 		$('#-menu-inicio').addClass('active');
 		setTimeout(function() {
 		$('#bubbles').removeClass('bubbles-out');
@@ -106,6 +108,19 @@ $(document).ready(function() {
 		
 	}
 
+	function moveTo(theTo) {
+			console.log('Moving to' + theTo);
+			if (lastHash == '' || lastHash == '#home') {
+				disappearFront();
+			} else {
+				$('.context').fadeOut('fast');
+			}
+			$('#' + theTo).toggle('blind');
+			if($('#'+theTo).has('div.loader').length) {
+				retrievePage(theTo);
+			}
+	}
+
 	// Luego, si el hash cambia repentinamente D:
 	$(window).bind('hashchange', function() {
 		var newHash = window.location.hash;
@@ -116,26 +131,11 @@ $(document).ready(function() {
 			console.log('Appearing Front!');
 			appearFront();
 		} else if (newHash == '#industrial' && lastHash != '#industrial') {
-			console.log('Moving to Indutrial');
-			disappearFront();
-			$('#industrial').toggle('blind');
-			if($('#industrial').has('div.loader').length) {
-				retrievePage('industrial');
-			}
+			moveTo('industrial');
 		} else if (newHash == '#publicitaria' && lastHash != '#publicitaria') {
-			console.log('Moving to Publicitaria');
-			disappearFront();
-			$('#publicitaria').toggle('blind');
-			if($('#publicitaria').has('div.loader').length) {
-				retrievePage('publicitaria');
-			}
+			moveTo('publicitaria');
 		} else if (newHash == '#decorativa' && lastHash != '#decorativa') {
-			console.log('Moving to Decorativa');
-			disappearFront();
-			$('#decorativa').toggle('blind');
-			if($('#decorativa').has('div.loader').length) {
-				retrievePage('decorativa');
-			}
+			moveTo('decorativa');
 		}
 
 		lastHash = newHash;

@@ -84,19 +84,22 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. </p>
 				</div> <!-- /#welcomer -->
 				<div id='bubbles' class='center width-pri'>
-					<div class='bub' target='industrial' onclick="document.location.href = '#industrial'">
+					<div class='bub bub-old-ind' target='industrial' onclick="document.location.href = '#industrial'">
 						<img class='big-btn' src='http://placehold.it/200x200'>
-						<img class='small-btn' src='http://placehold.it/50x50x'>
+						<!-- <img class='small-btn' src='http://placehold.it/50x50x'> -->
+						<h4 class='small-btn'>Industrial</h4>
 						<small class='center'>Linea Industrial</small>
 					</div>
-					<div class='bub' target='publicitaria' onclick="document.location.href = '#publicitaria'">
+					<div class='bub bub-old-pub' target='publicitaria' onclick="document.location.href = '#publicitaria'">
 						<img class='big-btn' src='http://placehold.it/200x200'>
-						<img class='small-btn' src='http://placehold.it/50x50x'>
+						<!-- <img class='small-btn' src='http://placehold.it/50x50'> -->
+						<h4 class='small-btn'>Publicitaria</h4>
 						<small class='center'>Linea Publicitaria</small>
 					</div>
-					<div class='bub' target='decorativa' onclick="document.location.href = '#decorativa'">
+					<div class='bub bub-old-dec' target='decorativa' onclick="document.location.href = '#decorativa'">
 						<img class='big-btn' src='http://placehold.it/200x200'>
-						<img class='small-btn' src='http://placehold.it/50x50x'>
+						<!-- <img class='small-btn' src='http://placehold.it/50x50'> -->
+						<h4 class='small-btn'>Decorativa</h4>
 						<small class='center'>Linea Decorativa</small>
 					</div>
 				</div>
