@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href='css/main.css' rel='stylesheet' type='text/css'>
+		<link href='css/main3.css' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 
@@ -119,5 +119,5 @@
 
 	</body>
 	<script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
-	<script src='js/main.js'></script>
+	<script src='js/main3.js'></script>
 </html>
