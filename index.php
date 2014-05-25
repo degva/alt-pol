@@ -130,7 +130,47 @@
         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
       <div class="modal-body">
-				<div class="loader">Loading...</div>
+<!-- 				<div class="loader">Loading...</div> -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://placehold.it/550x300"> <!-- alt='...' -->
+      <div class="carousel-caption">
+        Hey This is a foto 1
+      </div>
+    </div>
+    <div class="item active">
+      <img src="http://placehold.it/550x300"> <!-- alt='...' -->
+      <div class="carousel-caption">
+        Hey This is a foto 2
+      </div>
+    </div>
+    <div class="item active">
+      <img src="http://placehold.it/550x300"> <!-- alt='...' -->
+      <div class="carousel-caption">
+        Hey This is a foto 3
+      </div>
+    </div>
+	</div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+
+</div>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
