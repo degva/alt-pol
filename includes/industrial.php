@@ -8,35 +8,14 @@
 
 				<div class='width-pri center portafolio'>
 					<h3>Portafolio</h3>
-					<div class='fotos center width8'>
+					<div id='ind-fotos' class='fotos center width8'>
+					<!-- Aca sera reemplazado por js/ind-esp.js -->
+<!--
 						<div id='i01' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
 							<small class='center'>Foto Uno</small>
 						</div>
-						<div id='i02' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
-							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Dos</small>
-						</div>
-						<div id='i03' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
-							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Tres</small>
-						</div>
-						<div id='i04' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
-							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Cuatro</small>
-						</div>
-						<div id='i05' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
-							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Cinco</small>
-						</div>
-						<div id='i06' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
-							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Seis</small>
-						</div>
-						<div id='i07' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
-							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Siete</small>
-						</div>
+-->
 					</div>
 				</div> <!-- /.portafolio -->
 
@@ -65,3 +44,5 @@
 					</div>
 				</div> <!-- /.clientes -->
 
+
+	<script src='js/ind-esp.js'></script> 

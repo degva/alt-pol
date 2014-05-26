@@ -8,35 +8,15 @@
 
 				<div class='width-pri center portafolio'>
 					<h3>Portafolio</h3>
-					<div class='fotos center width8'>
+					<div id='pub-fotos' class='fotos center width8'>
+
+<!--
 						<div id='p01' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 							<img src='http://placehold.it/150x150' />
 							<small class='center'>Foto Siete</small>
 						</div>
-						<div id='p02' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
-							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Siete</small>
-						</div>
-						<div id='p03' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
-							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Siete</small>
-						</div>
-						<div id='p04' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
-							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Siete</small>
-						</div>
-						<div id='p05' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
-							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Siete</small>
-						</div>
-						<div id='p06' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
-							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Siete</small>
-						</div>
-						<div id='p07' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
-							<img src='http://placehold.it/150x150' />
-							<small class='center'>Foto Siete</small>
-						</div>
+-->
+
 					</div>
 				</div> <!-- /.portafolio -->
 
@@ -65,3 +45,4 @@
 					</div>
 				</div> <!-- /.clientes -->
 
+	<script src='js/pub-esp.js'></script> 

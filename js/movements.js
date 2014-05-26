@@ -141,4 +141,7 @@ $(document).ready(function() {
 		lastHash = newHash;
 	});
 
+	// Workaround para carousel dentro de modal
+	$('#foto-carousel').carousel();	
+
 });
