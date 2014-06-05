@@ -37,45 +37,45 @@
 
 				<!-- CAROUSEL -->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	</ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="http://placehold.it/800x300"> <!-- alt='...' -->
-      <div class="carousel-caption">
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+		<div class="item active">
+			<img src="http://placehold.it/800x300"> <!-- alt='...' -->
+			<div class="carousel-caption">
 				<h3>Foto 1</h3>
 				<p>Comentario para foto 1</p>
-      </div>
-    </div>
-    <div class="item">
-      <img src="http://placehold.it/800x300"> <!-- alt='...' -->
-      <div class="carousel-caption">
+			</div>
+		</div>
+		<div class="item">
+			<img src="http://placehold.it/800x300"> <!-- alt='...' -->
+			<div class="carousel-caption">
 				<h3>Foto 2</h3>
 				<p>Comentario para foto 2</p>
-      </div>
-    </div>
-    <div class="item">
-      <img src="http://placehold.it/800x300"> <!-- alt='...' -->
-      <div class="carousel-caption">
+			</div>
+		</div>
+		<div class="item">
+			<img src="http://placehold.it/800x300"> <!-- alt='...' -->
+			<div class="carousel-caption">
 				<h3>Foto 3</h3>
 				<p>Comentario para foto 3</p>
-      </div>
-    </div>
-  </div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Controls -->
 	<!-- 
-  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
+	<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+	</a>
+	<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
 	</a>
 	-->
 </div>
@@ -123,22 +123,25 @@
 
 			<!-- MODAL PARA FOTOS -->
 <div class="modal fade" id="fotoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button id='modal-close' type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 id='modal-foto-title' class="modal-title" id="myModalLabel">Modal title</h4>
+			</div>
 			<div class="modal-body">
 
-				<div class="loader">Loading...</div> 
+				<!-- <div class="loader">Loading...</div>	 -->
+				<!-- CAROUSEL -->
+				<div id='modal-carousel-cont' style='display: none'>
+				</div>
 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+	</div>
 </div>
 			<!-- /MODAL -->
 
@@ -149,5 +152,6 @@
 	</body>
 	<!-- <script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script> -->
 	<script src='js/movements.js'></script> 
+	<script src='js/modal-click.js'></script> 
 	<script src="js/bootstrap.min.js"></script>
 </html>

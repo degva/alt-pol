@@ -7,8 +7,8 @@
 				"informacion" => "This that and there 1 dec",
 				"descrip" => "Esto es muy loco, foto uno dec",
 				"fotosExtras" => array(
-					"http://placehold.it/550x300",
-					"http://placehold.it/550x300",
+					"http://placehold.it/700x400",
+					"http://placehold.it/700x400",
 				)
 			),
 		"d02" => array(
@@ -17,10 +17,10 @@
 				"informacion" => "This that and there 2 dec",
 				"descrip" => "Esto es muy loco, foto dos dec",
 				"fotosExtras" => array(
-					"http://placehold.it/550x300",
-					"http://placehold.it/550x300",
-					"http://placehold.it/550x300",
-					"http://placehold.it/550x300"
+					"http://placehold.it/700x400",
+					"http://placehold.it/700x400",
+					"http://placehold.it/700x400",
+					"http://placehold.it/700x400"
 				)
 			),
 		"d03" => array(
@@ -29,9 +29,9 @@
 				"informacion" => "This that and there 3 dec",
 				"descrip" => "Esto es muy loco, foto tres dec",
 				"fotosExtras" => array(
-					"http://placehold.it/550x300",
-					"http://placehold.it/550x300",
-					"http://placehold.it/550x300"
+					"http://placehold.it/700x400",
+					"http://placehold.it/700x400",
+					"http://placehold.it/700x400"
 				)
 			)
 	);
