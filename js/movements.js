@@ -77,6 +77,7 @@ $(document).ready(function() {
 		$('#welcomer').fadeOut('blind'); // toggle no parece funcionar bien .-.
 		$('#bubbles').fadeOut('fast');
 		$('.bub img.big-btn').fadeOut('fast');
+		$('.bub p.small-context').fadeOut('fast');
 		$('#-menu-inicio').removeClass('active');
 		setTimeout(function() {
 			// $('.bub').css({'height': '60px','width': '60px','margin-left': '162px'});
@@ -101,6 +102,7 @@ $(document).ready(function() {
 		$('#bubbles').removeClass('bubbles-out');
 			$('.bub').removeClass('bub-old');
 			$('.bub img.big-btn').fadeIn('slow');
+			$('.bub p.small-context').fadeIn('slow');
 			$('#bubbles').fadeIn('slow');
 			$('.bub small').fadeIn(1000);
 			$('#welcomer').toggle('blind');

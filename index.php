@@ -68,35 +68,38 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- Controls -->
-	<!-- 
-	<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left"></span>
-	</a>
-	<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right"></span>
-	</a>
-	-->
 </div>
 				<!-- END CAROUSEL -->
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Duis mattis sit amet massa quis suscipit. Etiam libero sapien, facilisis in. </p>
+				<br />
+				<h3 class='center width-pri'>Somos una empresa con amplia experiencia en el desarrollo e implementaci&oacuten de proyectos para la industria.</h3>
+				<br />
 				</div> <!-- /#welcomer -->
 				<div id='bubbles' class='center width-pri'>
 					<div class='bub bub-old-ind' target='industrial' onclick="document.location.href = '#industrial'">
+						<p class='small-context'>
+							<b>Linea Industrial</b> <br />
+							Aqui hay estas cosas tan locas de la vida 3 lineas! D: laksfj esternocleid
+						</p>
 						<img class='big-btn' src='http://placehold.it/200x200'>
 						<!-- <img class='small-btn' src='http://placehold.it/50x50x'> -->
 						<h4 class='small-btn'>Industrial</h4>
 						<small class='center'>Linea Industrial</small>
 					</div>
 					<div class='bub bub-old-pub' target='publicitaria' onclick="document.location.href = '#publicitaria'">
+						<p class='small-context'>
+							<b>Linea Publicitaria</b> <br />
+							Aqui hay estas cosas mas locas todavia deben ser 3 lineas
+						</p>
 						<img class='big-btn' src='http://placehold.it/200x200'>
 						<!-- <img class='small-btn' src='http://placehold.it/50x50'> -->
 						<h4 class='small-btn'>Publicitaria</h4>
 						<small class='center'>Linea Publicitaria</small>
 					</div>
 					<div class='bub bub-old-dec' target='decorativa' onclick="document.location.href = '#decorativa'">
+						<p class='small-context'>
+							<b>Linea Decorativa</b> <br />
+							Y aqui, uff para que te digo, pero las cosas son locas tambien 
+						</p>
 						<img class='big-btn' src='http://placehold.it/200x200'>
 						<!-- <img class='small-btn' src='http://placehold.it/50x50'> -->
 						<h4 class='small-btn'>Decorativa</h4>
