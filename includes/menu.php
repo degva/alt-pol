@@ -23,6 +23,6 @@
 ?>
 
 					<a id='-menu-qsomos' class='sub-menu-opt' href='#quienes-somos'>Quienes Somos</a>
-					<a id='-menu-contac' class='sub-menu-opt' href='#contacto'>Contacto</a>
+					<a id='-menu-contac' class='sub-menu-opt' href='#contacto'>Contactenos</a>
 				</div>
 			</div>

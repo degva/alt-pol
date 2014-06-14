@@ -50,6 +50,24 @@ $(document).ready(function() {
 					retrievePage('decorativa');
 				}
 			}, 1000);
+		} else if (the_hash == '#quienes-somos') {
+			console.log('Comenzando con Quienes Somos');
+			disappearFront();
+			setTimeout(function() {
+				$('#quienes-somos').fadeIn('blind');
+				if($('#quienes-somos').has('div.loader').length) {
+					retrievePage('quienes-somos');
+				}
+			}, 1000);
+		} else if (the_hash == '#contacto') {
+			console.log('Comenzando con decorativa');
+			disappearFront();
+			setTimeout(function() {
+				$('#contacto').fadeIn('blind');
+				if($('#contacto').has('div.loader').length) {
+					retrievePage('contacto');
+				}
+			}, 1000);
 		}
 		lastHash = the_hash;
 	}
@@ -94,7 +112,7 @@ $(document).ready(function() {
 	function appearFront() {
 		console.log('DEBUG: appearFront()');
 		$('.context').fadeOut('fast');
-		$('#bubbles').fadeOut('fast');
+	$('#bubbles').fadeOut('fast');
 		$('.bub h4.small-btn').fadeOut('fast');
 		//$('.bub img.small-btn').fadeOut('fast');
 		$('#-menu-inicio').addClass('active');
@@ -111,7 +129,7 @@ $(document).ready(function() {
 	}
 
 	function moveTo(theTo) {
-			console.log('Moving to' + theTo);
+			console.log('Moving to ' + theTo);
 			if (lastHash == '' || lastHash == '#home') {
 				disappearFront();
 			} else {
@@ -138,6 +156,10 @@ $(document).ready(function() {
 			moveTo('publicitaria');
 		} else if (newHash == '#decorativa' && lastHash != '#decorativa') {
 			moveTo('decorativa');
+		} else if (newHash == '#quienes-somos' && lastHash != '#quienes-somos') {
+			moveTo('quienes-somos');
+		} else if (newHash == '#contacto' && lastHash != '#contacto') {
+			moveTo('contacto');
 		}
 
 		lastHash = newHash;

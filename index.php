@@ -108,21 +108,36 @@
 				</div>
 			</div>
 			<!-- END INIT -->
+
 			<!-- INDUSTRIAL -->
 			<div id='industrial' class='context center width-pri'>
 				<div class="loader">Loading...</div>
 			</div>
 			<!-- /INDUSTRIAL -->
+
 			<!-- DECORATIVA -->
 			<div id='decorativa' class='context center width-pri'>
 				<div class="loader">Loading...</div>
 			</div>
 			<!-- /DECORATIVA -->
+
 			<!-- PUBLICITARIA -->
 			<div id='publicitaria' class='context center width-pri'>
 				<div class="loader">Loading...</div>
 			</div>
 			<!-- /PUBLICITARIA -->
+
+			<!-- QUIENES SOMOS -->
+			<div id='quienes-somos' class='context center width-pri'>
+				<div class="loader">Loading...</div>
+			</div>
+			<!-- /QUIENES SOMOS -->
+
+			<!-- CONTACTO -->
+			<div id='contacto' class='context center width-pri'>
+				<div class="loader">Loading...</div>
+			</div>
+			<!-- /CONTACTO -->
 
 			<!-- MODAL PARA FOTOS -->
 <div class="modal fade" id="fotoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
