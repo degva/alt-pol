@@ -67,7 +67,7 @@
 	</div>
 	<!-- END CAROUSEL-->
 	<div>
-		<h3><?php echo $fotos[$pic_id]['info']; ?></h3>
+		<h3><?php echo $fotos[$pic_id]['informacion']; ?></h3>
 		<p><?php echo $fotos[$pic_id]['descrip']; ?></p>
 	</div>
 

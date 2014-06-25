@@ -4,8 +4,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href='css/main.css' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8"> 
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+		<link href='css/main.css' rel='stylesheet' type='text/css'>
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<title>ALTOPOLIMERO</title>
@@ -42,65 +43,85 @@
 		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="4"></li>
 	</ol>
 
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner">
+
 		<div class="item active">
-			<img src="http://placehold.it/800x300"> <!-- alt='...' -->
+			<img src="img/init/001.jpg"> <!-- alt='...' -->
 			<div class="carousel-caption">
-				<h3>Foto 1</h3>
-				<p>Comentario para foto 1</p>
+				<h3>Celdas Electrolíticas</h3>
+				<p>Celdas de concreto reforzadas con fibra de vidrio antiácido</p>
 			</div>
 		</div>
 		<div class="item">
-			<img src="http://placehold.it/800x300"> <!-- alt='...' -->
+			<img src="img/init/002.jpg"> <!-- alt='...' -->
 			<div class="carousel-caption">
-				<h3>Foto 2</h3>
-				<p>Comentario para foto 2</p>
+				<h3>Automóvil Repsol</h3>
+				<p>Carro automático para recreación</p>
 			</div>
 		</div>
 		<div class="item">
-			<img src="http://placehold.it/800x300"> <!-- alt='...' -->
+			<img src="img/init/003.jpg"> <!-- alt='...' -->
 			<div class="carousel-caption">
-				<h3>Foto 3</h3>
-				<p>Comentario para foto 3</p>
+				<h3>Clarificadores</h3>
+				<p>Hechos en fibra de vidrio antiácida</p>
 			</div>
 		</div>
+		<div class="item">
+			<img src="img/init/004.jpg"> <!-- alt='...' -->
+			<div class="carousel-caption">
+				<h3>Dummie 3D - Pulp</h3>
+				<p>Montado sobre una camioneta</p>
+			</div>
+		</div>
+		<div class="item">
+			<img src="img/init/005.jpg"> <!-- alt='...' -->
+			<div class="carousel-caption">
+				<h3>Dummie 3D - Furby</h3>
+				<p>Con movimientos mecanizados controlados por placas electrónicas</p>
+			</div>
+		</div>
+
 	</div>
 </div>
 				<!-- END CAROUSEL -->
 				<br />
-				<h3 class='center width-pri'>Somos una empresa con amplia experiencia en el desarrollo e implementaci&oacuten de proyectos para la industria.</h3>
+				<h3 class='center width-pri'>Somos una empresa con amplia experiencia en el desarrollo e implementación<br> de proyectos para la industria.</h3>
+				<p class='center width-pri'>
+					<br>
+					Nuestra empresa, Altopolimero, ha dividido sus servicios en tres lineas específicas: <br> Industrial, Publicitaria y Decorativa. <br>
+					Visite nuestro portafolio por cada categoría mostrada abajo.
+				</p>
 				<br />
 				</div> <!-- /#welcomer -->
 				<div id='bubbles' class='center width-pri'>
 					<div class='bub bub-old-ind' target='industrial' onclick="document.location.href = '#industrial'">
 						<p class='small-context'>
-							<b>Linea Industrial</b> <br />
-							Aqui hay estas cosas tan locas de la vida 3 lineas! D: laksfj esternocleid
+							<b>Linea Industrial</b>
 						</p>
-						<img class='big-btn' src='http://placehold.it/200x200'>
+						<img class='big-btn' src='img/bub/ind.jpg'>
 						<!-- <img class='small-btn' src='http://placehold.it/50x50x'> -->
 						<h4 class='small-btn'>Industrial</h4>
 						<small class='center'>Linea Industrial</small>
 					</div>
 					<div class='bub bub-old-pub' target='publicitaria' onclick="document.location.href = '#publicitaria'">
 						<p class='small-context'>
-							<b>Linea Publicitaria</b> <br />
-							Aqui hay estas cosas mas locas todavia deben ser 3 lineas
+							<b>Linea Publicitaria</b> 
 						</p>
-						<img class='big-btn' src='http://placehold.it/200x200'>
+						<img class='big-btn' src='img/bub/pub.jpg'>
 						<!-- <img class='small-btn' src='http://placehold.it/50x50'> -->
 						<h4 class='small-btn'>Publicitaria</h4>
 						<small class='center'>Linea Publicitaria</small>
 					</div>
 					<div class='bub bub-old-dec' target='decorativa' onclick="document.location.href = '#decorativa'">
 						<p class='small-context'>
-							<b>Linea Decorativa</b> <br />
-							Y aqui, uff para que te digo, pero las cosas son locas tambien 
+							<b>Linea Decorativa</b>
 						</p>
-						<img class='big-btn' src='http://placehold.it/200x200'>
+						<img class='big-btn' src='img/bub/dec.jpg'>
 						<!-- <img class='small-btn' src='http://placehold.it/50x50'> -->
 						<h4 class='small-btn'>Decorativa</h4>
 						<small class='center'>Linea Decorativa</small>
@@ -173,3 +194,4 @@
 	<script src='js/modal-click.js'></script> 
 	<script src="js/bootstrap.min.js"></script>
 </html>
+
