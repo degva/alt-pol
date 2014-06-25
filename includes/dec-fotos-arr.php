@@ -7,8 +7,9 @@
 				"informacion" => "Android 3D hecho en fibra de vidrio",
 				"descrip" => "Apoyamos diseños de campañas publicitarias. Ponemos a su disposición las mejores y últimas técnicas de acabados.<br>Cliente: SPAM",
 				"fotosExtras" => array(
-					"http://placehold.it/700x400",
-					"http://placehold.it/700x400",
+					"img/decorativo/android/001.jpg",
+					"img/decorativo/android/002.jpg",
+					"img/decorativo/android/003.jpg"
 				)
 			),
 		"d02" => array(
@@ -17,8 +18,8 @@
 				"informacion" => "Animales mecatronicos 3D hechos en fibra de vidrio",
 				"descrip" => "Siempre que Ud. busque animatrónicos realistas, aquí estamos. Desde productos controlados desde su computadora, controles PLC , diseñamos sus placas electrónicas para cada necesidad, mecanismos prácticos y rendidores. Movimiento iluminnación y audio. Piezas en PRFV, siliconas, acrilicos, efectos perlecentes, colores orgánicos inertes, estructuras y mecanismos de calidad. Exportamos. <br>Cliente: Divercity",
 				"fotosExtras" => array(
-					"http://placehold.it/700x400",
-					"http://placehold.it/700x400",
+					"img/decorativo/",
+					"img/decorativo/",
 				)
 			),
 		"d03" => array(
@@ -27,8 +28,8 @@
 				"informacion" => "Auto Checker decorativo para fachada de restaurante hecho en fibra de vidrio con piezas metalizadas",
 				"descrip" => "Si su propuesta es retro, pues aqui la tenemos. Arte e Ingeniería a su alcance,	moldeo, termoformado, metalizados en niquel y cromo sobre fibra de vidrio. Como ninguno, nosotros disponemos de las tecnologías para su proyecto. Cualquier cosa que imagine su departamente de diseño. Corto tiempo de produccion, bajo costo e innovación.<br>Cliente: SPAM",
 				"fotosExtras" => array(
-					"http://placehold.it/700x400",
-					"http://placehold.it/700x400",
+					"img/decorativo/",
+					"img/decorativo/",
 				)
 			),
 		"d04" => array(
@@ -37,8 +38,8 @@
 				"informacion" => "Autos Motorizados hechos en fibra de vidrio con motor para movilizacion",
 				"descrip" => "Si su parque necesita carros a batería para diversión para niños o adultos. Traíganos su propuesta. Excelentes acabados, durabilidad, amistosos con el ambiente, soporte técnico.<br>Cliente: Divercity",
 				"fotosExtras" => array(
-					"http://placehold.it/700x400",
-					"http://placehold.it/700x400",
+					"img/decorativo/",
+					"img/decorativo/",
 				)
 			),
 		"d05" => array(
@@ -47,8 +48,8 @@
 				"informacion" => "Caracol \"Turbo\" decorativo para mostrador en cine",
 				"descrip" => "Va a estrenar una película?. Pues aquí tenemos lo que busca: <b>rapidéz, bajo costo y perfección</b>. Eficacia de impacto con efectividad 1000 por ciento. Vallas móviles.<br>Cliente: SPAM",
 				"fotosExtras" => array(
-					"http://placehold.it/700x400",
-					"http://placehold.it/700x400",
+					"img/decorativo/caracol-turbo/001.jpg",
+					"img/decorativo/caracol-turbo/002.jpg"
 				)
 			),
 		"d06" => array(
@@ -57,8 +58,9 @@
 				"informacion" => "Escultura en base de espuma reforzado con fibra de vidrio",
 				"descrip" => "Museos, expo de artes, proyectos de artistas, tienen su casa: Altopolimero <br> Cliente: Divercity",
 				"fotosExtras" => array(
-					"http://placehold.it/700x400",
-					"http://placehold.it/700x400",
+					"img/decorativo/esculturas/001.jpg",
+					"img/decorativo/esculturas/002.jpg",
+					"img/decorativo/esculturas/003.jpg"
 				)
 			),
 		"d07" => array(
@@ -67,8 +69,13 @@
 				"informacion" => "Representacion con funcionalidad de procesos industriales controlado por computadoras",
 				"descrip" => "Dummies de fábricas, funcionamiento de ficción, educativos y divertidos. Excelentes acabados, durabilidad, arte e ingeniería. <br>Cliente: Divercity",
 				"fotosExtras" => array(
-					"http://placehold.it/700x400",
-					"http://placehold.it/700x400",
+					"img/decorativo/maquinaria-divercity/001.jpg",
+					"img/decorativo/maquinaria-divercity/002.jpg",
+					"img/decorativo/maquinaria-divercity/003.jpg",
+					"img/decorativo/maquinaria-divercity/004.jpg",
+					"img/decorativo/maquinaria-divercity/005.jpg",
+					"img/decorativo/maquinaria-divercity/006.jpg",
+					"img/decorativo/maquinaria-divercity/007.jpg"
 				)
 			),
 		"d08" => array(
@@ -77,9 +84,13 @@
 				"informacion" => "Piezas decorativas hechas en fibra de vidrio con acabados varios",
 				"descrip" => "Disponemos de planta para metalizar sus modelos y moldes. Cobreado, niquelado, cromado, plateado. Traíganos sus diseños, nosotros lo metalizamos. Unicos en el Perú.<br>Cliente: Varios",
 				"fotosExtras" => array(
-					"http://placehold.it/700x400",
-					"http://placehold.it/700x400",
-					"http://placehold.it/700x400"
+					"img/decorativo/piezas-decorativas/001.jpg",
+					"img/decorativo/piezas-decorativas/002.jpg",
+					"img/decorativo/piezas-decorativas/003.png",
+					"img/decorativo/piezas-decorativas/004.jpg",
+					"img/decorativo/piezas-decorativas/005.jpg",
+					"img/decorativo/piezas-decorativas/006.jpg",
+					"img/decorativo/piezas-decorativas/007.jpg"
 				)
 			)
 	);
