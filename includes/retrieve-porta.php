@@ -12,7 +12,7 @@
 ?>
 		<div id='<?php echo $value; ?>' class='foto-porta left' data-toggle='modal' data-target='#fotoModal'>
 			<img src='<?php echo $fotos[$value]["data"]; ?>' />
-			<small class='center'><?php echo $fotos[$value]["informacion"] ?></small>
+			<small class='center'><?php echo $fotos[$value]["info"] ?></small>
 		</div>
 
 <?php

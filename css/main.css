@@ -67,8 +67,15 @@ p {
 		text-align: center;
 		width: 150px;
 		font-size: small;
-		top: -25px;
+		/* top: -25px; */
 		display: table;
+		bottom: 25%;
+		color: white;
+		text-shadow: 1px 1px 0 #000;
+	}
+
+	.portafolio .foto-porta > img {
+		border-radius: 4px;
 	}
 
 .clientes {
@@ -292,6 +299,8 @@ a.rs:hover {
 		top: -60px;
 		display: table;
 		font-size: small;
+		color: white;
+		text-shadow: 1px 1px 0 #000;
 	}
 
 		.bub small:hover {

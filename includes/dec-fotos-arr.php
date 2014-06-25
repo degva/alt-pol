@@ -1,6 +1,6 @@
 <?php
 	$fotos = array(
-		"fotos" => array('d01','d02','d03'),
+		"fotos" => array('d01','d02','d03', 'd04', 'd05', 'd06', 'd07', 'd08'),
 		"d01" => array(
 				"info" => "Android - Dummie 3D",
 				"data" => "img/decorativo/android/thumb.jpg",
@@ -13,7 +13,7 @@
 			),
 		"d02" => array(
 				"info" => "Animales - Dummies 3D",
-				"data" => "img/decorativo/animales-divercity/thumb.jpg",
+				"data" => "http://placehold.it/150x150",
 				"informacion" => "Animales mecatronicos 3D hechos en fibra de vidrio",
 				"descrip" => "Siempre que Ud. busque animatrónicos realistas, aquí estamos. Desde productos controlados desde su computadora, controles PLC , diseñamos sus placas electrónicas para cada necesidad, mecanismos prácticos y rendidores. Movimiento iluminnación y audio. Piezas en PRFV, siliconas, acrilicos, efectos perlecentes, colores orgánicos inertes, estructuras y mecanismos de calidad. Exportamos. <br>Cliente: Divercity",
 				"fotosExtras" => array(
@@ -23,7 +23,7 @@
 			),
 		"d03" => array(
 				"info" => "Auto Checker - Dummie 3D",
-				"data" => "img/decorativo/auto-checker/thumb.jpg",
+				"data" => "http://placehold.it/150x150",
 				"informacion" => "Auto Checker decorativo para fachada de restaurante hecho en fibra de vidrio con piezas metalizadas",
 				"descrip" => "Si su propuesta es retro, pues aqui la tenemos. Arte e Ingeniería a su alcance,	moldeo, termoformado, metalizados en niquel y cromo sobre fibra de vidrio. Como ninguno, nosotros disponemos de las tecnologías para su proyecto. Cualquier cosa que imagine su departamente de diseño. Corto tiempo de produccion, bajo costo e innovación.<br>Cliente: SPAM",
 				"fotosExtras" => array(
