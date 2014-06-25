@@ -311,6 +311,11 @@ a.rs:hover {
 	display: none;
 }
 
+.item > img {
+	position: relative;
+	margin: 0 auto;
+}
+
 /* esto es para el loader, no modificar! */
 .loader,
 .loader:before,
