@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link type="image/x-icon" href="img/logo.ico" rel="Shortcut Icon">
 		<meta charset="utf-8"> 
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 		<link href='css/main.css' rel='stylesheet' type='text/css'>
