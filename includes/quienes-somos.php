@@ -1,7 +1,10 @@
 				<h2 class='center'>Quienes somos</h2>	
 				<div class='width8 center'>
 					<p>
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu odio eget magna hendrerit egestas. Integer dolor purus, volutpat vel metus vitae, semper ultricies nisl. Donec ultricies vestibulum arcu in commodo. Morbi nec nisl eget justo luctus feugiat nec eget mi. Proin fermentum enim sit amet turpis tempor, vel consequat augue dapibus. In quis erat porta, consectetur erat eu, commodo dui. Morbi ac odio vitae nulla fringilla luctus vel ut eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum urna et orci imperdiet fringilla. Nulla quis turpis fermentum orci vestibulum scelerisque. 
-					</p>
+Somos una empresa con amplia experiencia en la implementación y desarrollo de proyectos con los nuevos materiales como Resinas Poliésteres, Vinil Estéres y Fibras de Vidrio.
+
+Apoyamos sus proyectos desde el perfil hasta la operación. Le damos el soporte técnico a las propuestas. 
+					</p> <br>
+					<img class='center' src="img/init/cont.jpg"></img>
 				</div>
 

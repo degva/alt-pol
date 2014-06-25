@@ -156,7 +156,7 @@
 			<!-- /QUIENES SOMOS -->
 
 			<!-- CONTACTO -->
-			<div id='contacto' class='context center width-pri'>
+			<div id='contacto' class='context center width-pri' style='height: 700px;'>
 				<div class="loader">Loading...</div>
 			</div>
 			<!-- /CONTACTO -->

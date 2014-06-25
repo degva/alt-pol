@@ -316,6 +316,20 @@ a.rs:hover {
 	margin: 0 auto;
 }
 
+#contac {
+	position: relative;
+}
+
+form > input {
+	width: 300px;
+}
+
+form > textarea {
+	max-width: 300px;
+	width: 300px;
+	height: 250px;
+}
+
 /* esto es para el loader, no modificar! */
 .loader,
 .loader:before,
