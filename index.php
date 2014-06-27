@@ -61,8 +61,8 @@
 		<div class="item">
 			<img src="img/init/002.jpg"> <!-- alt='...' -->
 			<div class="carousel-caption">
-				<h3>Automóvil Repsol</h3>
-				<p>Carro automático para recreación</p>
+				<h3>Taxi Checker</h3>
+				<p>Clasico Taxi NewYorkino hecho en fibra de vidrio</p>
 			</div>
 		</div>
 		<div class="item">

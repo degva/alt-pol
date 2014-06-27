@@ -24,12 +24,16 @@
 			),
 		"d03" => array(
 				"info" => "Auto Checker - Dummie 3D",
-				"data" => "http://placehold.it/150x150",
+				"data" => "img/decorativo/auto-checker/thumb.jpg",
 				"informacion" => "Auto Checker decorativo para fachada de restaurante hecho en fibra de vidrio con piezas metalizadas",
 				"descrip" => "Si su propuesta es retro, pues aqui la tenemos. Arte e Ingeniería a su alcance,	moldeo, termoformado, metalizados en niquel y cromo sobre fibra de vidrio. Como ninguno, nosotros disponemos de las tecnologías para su proyecto. Cualquier cosa que imagine su departamente de diseño. Corto tiempo de produccion, bajo costo e innovación.<br>Cliente: SPAM",
 				"fotosExtras" => array(
-					"img/decorativo/",
-					"img/decorativo/",
+					"img/decorativo/auto-checker/001.jpg",
+					"img/decorativo/auto-checker/002.jpg",
+					"img/decorativo/auto-checker/003.jpg",
+					"img/decorativo/auto-checker/004.jpg",
+					"img/decorativo/auto-checker/005.jpg",
+					"img/decorativo/auto-checker/006.jpg"
 				)
 			),
 		"d04" => array(
