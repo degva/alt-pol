@@ -9,6 +9,12 @@
 					<div id='email'><i class="fa fa-envelope"></i><a class='rs' href='mailto:altopolimero.ger@gmail.com'>altopolimero.ger@gmail.com</a></div>
 					-->
 				</div>
+				<div id='contac-men'>
+					<p>RUC: 123542435425 </p>
+					<p>Ca. Andromeda Mz. U Lt. 3-C Chorrillos - Lima, Perú</p>
+					<p>Cel.: 999999999</p>
+					<p>altopolimero.ger@gmail.com</p>
+				</div>
 				<div id='sub-menu-1' class='right width8'>
 <?php
 	if ($pagenum == 1) {

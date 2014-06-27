@@ -218,6 +218,20 @@ a.rs:hover {
 	cursor: pointer;
 }
 
+#contac-men {
+	margin-top: 18px;
+	margin-right: 180px;
+	position: relative;
+	font-size: 10px;
+	float: right;
+	width: 250px;
+}
+
+	#contac-men > p {
+		margin: 0;
+		text-align: left;
+	}	
+
 #bubbles {
 	/* left: 38px; */
 	height: 340px;
