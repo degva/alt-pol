@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	console.log('THIS IS WORKING!');
+	//console.log('THIS IS WORKING!');
 	$.ajax({
 		type: 'post',
 		url: 'includes/retrieve-porta.php',

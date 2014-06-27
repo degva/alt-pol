@@ -16,15 +16,15 @@ $(document).ready(function() {
 
 	// En caso de que exista un hash dentro de la pagina:
 	if (window.location.hash) {
-		console.log('DEBUG: Encontre un hash! D:');
+		//console.log('DEBUG: Encontre un hash! D:');
 		the_hash = window.location.hash;
-		console.log('Y es ' + the_hash + ' D:');
+		//console.log('Y es ' + the_hash + ' D:');
 
 		if (the_hash == '#home' || the_hash == '') {
-			console.log('Comenzando con Home');
+			//console.log('Comenzando con Home');
 			// $('#welcomer').toggle('fast');
 		} else if (the_hash == '#industrial') {
-			console.log('Comenzando con industrial');
+			//console.log('Comenzando con industrial');
 			disappearFront();
 			setTimeout(function() {
 				$('#industrial').fadeIn('blind');
@@ -33,7 +33,7 @@ $(document).ready(function() {
 				}
 			}, 1000);
 		} else if (the_hash == '#publicitaria') {
-			console.log('Comenzando con publicitaria');
+			//console.log('Comenzando con publicitaria');
 			disappearFront();
 			setTimeout(function() {
 				$('#publicitaria').fadeIn('blind');
@@ -42,7 +42,7 @@ $(document).ready(function() {
 				}
 			}, 1000);
 		} else if (the_hash == '#decorativa') {
-			console.log('Comenzando con decorativa');
+			//console.log('Comenzando con decorativa');
 			disappearFront();
 			setTimeout(function() {
 				$('#decorativa').fadeIn('blind');
@@ -51,7 +51,7 @@ $(document).ready(function() {
 				}
 			}, 1000);
 		} else if (the_hash == '#quienes-somos') {
-			console.log('Comenzando con Quienes Somos');
+			//console.log('Comenzando con Quienes Somos');
 			disappearFront();
 			setTimeout(function() {
 				$('#quienes-somos').fadeIn('blind');
@@ -60,7 +60,7 @@ $(document).ready(function() {
 				}
 			}, 1000);
 		} else if (the_hash == '#contacto') {
-			console.log('Comenzando con decorativa');
+			//console.log('Comenzando con decorativa');
 			disappearFront();
 			setTimeout(function() {
 				$('#contacto').fadeIn('blind');
@@ -74,7 +74,7 @@ $(document).ready(function() {
 
 	function retrievePage(page) {
 		url_ready = 'includes/' + page + '.php';
-		console.log('retrieving page!');
+		//console.log('retrieving page!');
 		$.ajax({
 			type: 'post',
 			url: url_ready,
@@ -91,7 +91,7 @@ $(document).ready(function() {
 	}
 
 	function disappearFront() {
-		console.log('DEBUG: disappearFront()');
+		//console.log('DEBUG: disappearFront()');
 		$('#welcomer').fadeOut('blind'); // toggle no parece funcionar bien .-.
 		$('#bubbles').fadeOut('fast');
 		$('.bub img.big-btn').fadeOut('fast');
@@ -110,7 +110,7 @@ $(document).ready(function() {
 	}
 
 	function appearFront() {
-		console.log('DEBUG: appearFront()');
+		//console.log('DEBUG: appearFront()');
 		$('.context').fadeOut('fast');
 	$('#bubbles').fadeOut('fast');
 		$('.bub h4.small-btn').fadeOut('fast');
@@ -129,7 +129,7 @@ $(document).ready(function() {
 	}
 
 	function moveTo(theTo) {
-			console.log('Moving to ' + theTo);
+			//console.log('Moving to ' + theTo);
 			if (lastHash == '' || lastHash == '#home') {
 				disappearFront();
 			} else {
@@ -144,11 +144,11 @@ $(document).ready(function() {
 	// Luego, si el hash cambia repentinamente D:
 	$(window).bind('hashchange', function() {
 		var newHash = window.location.hash;
-		console.log('DEBUG: Hash ha cambiado! D:');
-		console.log('DEBUG: Y es: ' + newHash);
+		//console.log('DEBUG: Hash ha cambiado! D:');
+		//console.log('DEBUG: Y es: ' + newHash);
 		// Entonces primero desaparesco init :d
 		if ((newHash == '' || newHash == '#home') && lastHash != '') {
-			console.log('Appearing Front!');
+			//console.log('Appearing Front!');
 			appearFront();
 		} else if (newHash == '#industrial' && lastHash != '#industrial') {
 			moveTo('industrial');

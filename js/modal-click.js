@@ -3,8 +3,8 @@ $(document).ready(function() {
 		var this_id = $(this).attr('id');
 		var context = $(this).children('small').text();
 
-		console.log('DEBUG: Reciviendo informacion extra para foto: ' + this_id);
-		console.log('DEBUG: Tiene titulo: ' + context);
+		//console.log('DEBUG: Reciviendo informacion extra para foto: ' + this_id);
+		//console.log('DEBUG: Tiene titulo: ' + context);
 
 		$.ajax({
 			type: 'post',
