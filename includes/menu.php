@@ -10,10 +10,9 @@
 					-->
 				</div>
 				<div id='contac-men'>
-					<p>RUC: 123542435425 </p>
-					<p>Ca. Andromeda Mz. U Lt. 3-C Chorrillos - Lima, Perú</p>
-					<p>Cel.: 999999999</p>
+					<p>Cel.: 986 664 246 | 946 003 388</p>
 					<p>altopolimero.ger@gmail.com</p>
+					<p>ventas@altopolimero.com</p>
 				</div>
 				<div id='sub-menu-1' class='right width8'>
 <?php
