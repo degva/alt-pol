@@ -5,6 +5,10 @@
 Altopolímero tiene muchos años de experiencia en el ámbito artístico; ya sea para una exposición de arte, mecatrónicos o escalas de modelos para un parque de entretenimiento.<br>
 Vea nuestro portafolio y entérese de nuestro trabajo.
 					</p>
+					<p>
+						Vea un video de nuestros mecatronicos.
+					</p>
+					<iframe width="640" height="480" src="//www.youtube.com/embed/DPho9vv_EF4" frameborder="0" allowfullscreen></iframe>
 				</div>
 
 				<div class='width-pri center portafolio'>
