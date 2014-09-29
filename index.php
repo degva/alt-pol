@@ -26,6 +26,15 @@
 					<img id='logo-prin' src='img/logo-2d.png' />
 				</div>
 			</div>
+			
+			<!-- este es un espacio para promociones -->
+			<div id='promo' class='promo'>
+				<div id='foto-promo'>
+					<div class='close-this'>X</div>
+				</div>
+			</div>
+			<!-- Fin del espacio para promo -->
+
 			<div id='aaa' class='center width-pri'>
 			<!-- START MENU -->
 			<?php include 'includes/menu.php' ?>

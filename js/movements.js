@@ -11,6 +11,7 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		// Y sacamos el #aaa
+		$('#promo').fadeIn('slow');
 		$('#aaa').fadeIn('slow');
 	}, 2000);
 
@@ -140,6 +141,10 @@ $(document).ready(function() {
 				retrievePage(theTo);
 			}
 	}
+
+	$('div.close-this').on('click', function() {
+		$('#promo').fadeOut();
+	});
 
 	// Luego, si el hash cambia repentinamente D:
 	$(window).bind('hashchange', function() {
